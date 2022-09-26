@@ -1,0 +1,71 @@
+*{
+         text-decoration: none;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+}
+h2{
+         color: #90CAF9;
+         font-size: 1.6em;
+}
+p{
+         font-size: 1.3em;
+}
+body{
+         background: #efefef;
+}
+img{
+         width: 400px;
+}
+header{
+         background: #90CAF9;
+         color: #fff;
+         padding: 2rem 2rem;
+        
+}
+#titulo{
+         font-size: 2rem;
+         text-align: center;
+}
+.container{
+         width: 400px;
+         margin: 0 auto;
+}
+.post{
+         background: #fff;
+         margin: 1rem 0;
+         border-radius: .5rem;
+         padding: .25rem 0;
+         cursor: pointer;
+         transition: box-shadow .5s ease-in-out;
+         text-align: center;
+}
+section article h2, section article p{
+         margin: 1rem;
+}
+.post:hover{
+         box-shadow: 0 .1rem .4rem rgba(0, 0, 0, 0.308);
+}
+.foot-container{
+         background: #222;
+         padding: 10px;
+         color: #fff;
+         display: block;
+         justify-content: space-around;
+         flex-direction: row-reverse;
+         display: flex;
+         
+}
+footer p{
+         user-select: none;
+}
+
+footer a:hover{
+         color: rgb(131, 233, 246);
+}
+span, a{
+         color: #90CAF9;
+} 
+
+
